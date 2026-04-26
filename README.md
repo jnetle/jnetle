@@ -1,6 +1,7 @@
-<p align="center">
-  <img src="assets/portrait_square.svg" width="280" alt="jnetle" />
-</p>
+<div align="right" style="background-color: #ccc8be; display:flex; flex-direction:row; justify-content: space-between; align-items: center; padding: 16px 24px">
+<h1>HELLO, WORLD.</h1>
+  <img src="assets/portrait_square.svg" width="150" alt="jnetle" />
+</div>
 
 <br>
 
