@@ -1,7 +1,7 @@
-<div align="right" style="background-color: #ccc8be; display:flex; flex-direction:row; justify-content: space-between; align-items: center; padding: 16px 24px">
-<h1>HELLO, WORLD.</h1>
-  <img src="assets/portrait_square.svg" width="150" alt="jnetle" />
-</div>
+<table width="100%"><tr>
+  <td ><h1>HELLO, WORLD.</h1></td>
+  <td align="right"><img src="assets/portrait_landscape.svg" width="330" alt="jnetle" /></td>
+</tr></table>
 
 <br>
 
