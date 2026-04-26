@@ -1,5 +1,5 @@
 <table width="100%"><tr>
-  <td ><h1>HELLO, WORLD.</h1></td>
+  <td width="100%"><h1>HELLO, WORLD.</h1></td>
   <td align="right"><img src="assets/portrait_landscape.svg" width="330" alt="jnetle" /></td>
 </tr></table>
 
