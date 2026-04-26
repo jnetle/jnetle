@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/portrait_square.svg" width="210" alt="jnetle" />
+  <img src="assets/portrait_square.svg" width="100%" alt="jnetle" />
 </p>
 
 <br>
@@ -142,7 +142,6 @@
 ║  $ ping jeanette                                             ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║  EMAIL ........ le.jeanette@gmail.com                        ║
 ║  LINKEDIN ..... linkedin.com/in/jeanettele                   ║
 ║  LOCATION ..... SF Bay Area, CA                              ║
 ║  DEGREE ....... BS Computer Science · John Carroll Univ.     ║
