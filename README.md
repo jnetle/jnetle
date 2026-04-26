@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/portrait_square.svg" width="100%" alt="jnetle" />
+  <img src="assets/portrait_square.svg" width="280" alt="jnetle" />
 </p>
 
 <br>
