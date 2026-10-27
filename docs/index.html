@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeanette Le — Senior Frontend Engineer | React, TypeScript, Next.js</title>
+<meta name="description" content="Senior Frontend Engineer with 20+ years of experience in React, TypeScript, JavaScript, Next.js, GraphQL, AWS and accessibility (WCAG). Open to full-time roles.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jeanette Le — Senior Frontend Engineer">
+<meta property="og:description" content="20+ years building real-time, data-heavy web apps. React · TypeScript · Next.js · GraphQL · AWS · WCAG">
+<meta property="og:url" content="https://jnetle.github.io/jnetle/">
+<meta name="theme-color" content="#f4f3ef">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/courier-prime-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/courier-prime-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+/* latin-ext */
+@font-face {
+  font-family: 'Courier Prime';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/courier-prime-400i-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Courier Prime';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/courier-prime-400i-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Courier Prime';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/courier-prime-400-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Courier Prime';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/courier-prime-400-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Courier Prime';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/courier-prime-700-latin-ext.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Courier Prime';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/courier-prime-700-latin.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html{scroll-behavior:smooth}
+body{margin:0;background:#f4f3ef;color:#1d1d1b;font-family:'Courier Prime',monospace;-webkit-font-smoothing:antialiased}
+a{color:#1d1d1b}
+a:hover{color:#3f7a48}
+::selection{background:#cfe3d1}
+.cta{background:#1d1d1b;color:#f4f3ef;text-decoration:none;font-weight:500;padding:12px 22px}
+.cta:hover{background:#3f7a48;color:#f4f3ef}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div style="min-height:100vh;">
+  <div id="bar" style="position:fixed;left:0;top:0;height:3px;width:100%;background:#3f7a48;transform-origin:0 50%;transform:scaleX(0);z-index:10;"></div>
+
+  <header style="position:sticky;top:0;z-index:5;background:#f4f3ef;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:18px clamp(20px,5vw,72px);font-size:14px;">
+    <a href="#top" style="font-weight:700;text-decoration:none;">Jeanette Le</a>
+    <nav style="display:flex;gap:24px;flex-wrap:wrap;">
+      <a href="#experience" style="text-decoration:none;">Experience</a>
+      <a href="#side-projects" style="text-decoration:none;">Side projects</a>
+      <a href="#skills" style="text-decoration:none;">Skills</a>
+      <a href="uploads/Jeanette-Le-Frontend-Resume-Oct-2026.pdf" style="text-decoration:none;">Résumé</a>
+      <a href="#contact" style="text-decoration:none;color:#3f7a48;font-weight:500;">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section style="min-height:calc(100vh - 60px);display:flex;flex-direction:column;justify-content:center;padding:0 clamp(20px,5vw,72px) 8vh;box-sizing:border-box;">
+      <div id="hero" style="will-change:transform,opacity;">
+        <p style="margin:0 0 24px;font-size:14px;display:flex;align-items:center;gap:10px;"><span style="width:8px;height:8px;border-radius:50%;background:#3f7a48;"></span>Open to full-time roles</p>
+        <h1 id="type" style="margin:0;font-weight:700;font-size:clamp(44px,9vw,148px);line-height:.95;max-width:11ch;">Senior Frontend Engineer</h1>
+        <p style="margin:32px 0 0;font-size:clamp(18px,2vw,26px);line-height:1.4;max-width:30ch;text-wrap:pretty;">20+ years building real-time, data-heavy web apps.</p>
+        <p style="margin:28px 0 0;font-size:clamp(13px,1.2vw,16px);line-height:1.7;max-width:60ch;color:#3f7a48;">React · TypeScript · JavaScript · Next.js · GraphQL · AWS · WCAG</p>
+      </div>
+    </section>
+
+    <section id="experience" style="padding:clamp(60px,10vh,120px) clamp(20px,5vw,72px);">
+      <h2 data-reveal style="margin:0 0 40px;font-weight:500;font-size:14px;text-transform:uppercase;letter-spacing:.12em;">Experience</h2>
+      <div style="display:flex;flex-direction:column;">
+        <article data-reveal style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:8px 40px;padding:28px 0;border-top:1px solid #c9c8c2;">
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(22px,2.4vw,32px);">BLNG AI</h3>
+            <span style="font-size:15px;">Lead Frontend Engineer</span>
+            <span style="font-size:13px;color:#5e5d58;">2023 – 2025</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <p style="margin:0;font-size:17px;line-height:1.5;text-wrap:pretty;">Built a production AI image generation app from 0 to 1: interactive canvas editor, real-time chat, auth and Stripe billing.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">React · TypeScript · Canvas API · AWS Cognito · Lambda · CDK/SST · Stripe</p>
+          </div>
+        </article>
+        <article data-reveal style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:8px 40px;padding:28px 0;border-top:1px solid #c9c8c2;">
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(22px,2.4vw,32px);">Disney Streaming</h3>
+            <span style="font-size:15px;">Senior Software Engineer, Advanced Research</span>
+            <span style="font-size:13px;color:#5e5d58;">2021 – 2023</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <p style="margin:0;font-size:17px;line-height:1.5;text-wrap:pretty;">Built a real-time UFC analytics dashboard across 9 live camera feeds with 2D/3D pose visualization.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">React · three.js · WebGL · Web Workers · WebSockets</p>
+          </div>
+        </article>
+        <article data-reveal style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:8px 40px;padding:28px 0;border-top:1px solid #c9c8c2;">
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(22px,2.4vw,32px);">Plusgrade</h3>
+            <span style="font-size:15px;">Senior Software Engineer</span>
+            <span style="font-size:13px;color:#5e5d58;">2012 – 2021</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <p style="margin:0;font-size:17px;line-height:1.5;text-wrap:pretty;">Built real-time upgrade auctions and a multilingual seat map; helped scale the platform from 35 to 70+ airlines.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">React · GraphQL · TypeScript · Accessibility (WCAG) · i18n · Payments</p>
+          </div>
+        </article>
+        <article data-reveal style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:8px 40px;padding:28px 0;border-top:1px solid #c9c8c2;">
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(22px,2.4vw,32px);">Travora Media</h3>
+            <span style="font-size:15px;">Senior Software Engineer</span>
+            <span style="font-size:13px;color:#5e5d58;">2010 – 2012</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <p style="margin:0;font-size:17px;line-height:1.5;text-wrap:pretty;">Built ad analytics and reporting tools and ETL pipelines for data warehousing.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">JavaScript · MySQL · Java · C#</p>
+          </div>
+        </article>
+        <article data-reveal style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:8px 40px;padding:28px 0;border-top:1px solid #c9c8c2;">
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(22px,2.4vw,32px);">Travelocity</h3>
+            <span style="font-size:15px;">Software Developer</span>
+            <span style="font-size:13px;color:#5e5d58;">2007 – 2010</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <p style="margin:0;font-size:17px;line-height:1.5;text-wrap:pretty;">Contributed to travel shopping tools generating $15M+ in annual revenue; led SEO and performance work.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">JavaScript · CMS · SEO · Performance</p>
+          </div>
+        </article>
+        <article data-reveal style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:8px 40px;padding:28px 0;border-top:1px solid #c9c8c2;">
+          <div style="display:flex;flex-direction:column;gap:4px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(22px,2.4vw,32px);">KeyBank</h3>
+            <span style="font-size:15px;">Senior Application Systems Programmer</span>
+            <span style="font-size:13px;color:#5e5d58;">2002 – 2007</span>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <p style="margin:0;font-size:17px;line-height:1.5;text-wrap:pretty;">Built investment tracking dashboards and a customer risk assessment system.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">C# · ASP.NET · SQL</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="side-projects" style="padding:clamp(60px,10vh,120px) clamp(20px,5vw,72px);">
+      <div data-reveal style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px;margin:0 0 40px;">
+        <h2 style="margin:0;font-weight:500;font-size:14px;text-transform:uppercase;letter-spacing:.12em;">Side projects</h2>
+        <span style="font-size:15px;color:#5e5d58;">Websites for small businesses</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:40px 32px;">
+        <article data-reveal style="display:flex;flex-direction:column;gap:14px;">
+          <a href="https://www.elcerritosupplyco.com" target="_blank" rel="noopener" style="position:relative;display:block;aspect-ratio:1200/630;background:#e4e3de;overflow:hidden;border:1px solid #c9c8c2;">
+            <img src="img/elcerrito-supply-co.jpg" alt="El Cerrito Supply Co. website" loading="lazy" style="display:block;width:100%;height:100%;object-fit:cover;object-position:top;">
+          </a>
+          <div style="display:flex;flex-direction:column;gap:6px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(20px,2vw,26px);">El Cerrito Supply Co.</h3>
+            <span style="font-size:14px;color:#5e5d58;">Community retail shop · El Cerrito, CA</span>
+            <p style="margin:4px 0 0;font-size:16px;line-height:1.5;text-wrap:pretty;">Live site with maker directory, community calendar, maker submissions and newsletter signup.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">Next.js · React · TypeScript · SEO · Responsive Design</p>
+            <div style="display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:6px;font-size:14px;">
+              <a href="https://www.elcerritosupplyco.com" target="_blank" rel="noopener">elcerritosupplyco.com ↗</a>
+            </div>
+          </div>
+        </article>
+        <article data-reveal style="display:flex;flex-direction:column;gap:14px;">
+          <a href="https://jnetle.github.io/mv-thermometer/fundraising_thermometer.html" target="_blank" rel="noopener" style="position:relative;display:block;aspect-ratio:1200/630;background:#e4e3de;overflow:hidden;border:1px solid #c9c8c2;">
+            <iframe src="https://jnetle.github.io/mv-thermometer/fundraising_thermometer.html" title="Mira Vista fundraising thermometer widget" loading="lazy" tabindex="-1" style="position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none;background:#fff;"></iframe>
+          </a>
+          <div style="display:flex;flex-direction:column;gap:6px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(20px,2vw,26px);">Mira Vista Fundraising Thermometer</h3>
+            <span style="font-size:14px;color:#5e5d58;">School fundraising widget · Mira Vista School</span>
+            <p style="margin:4px 0 0;font-size:16px;line-height:1.5;text-wrap:pretty;">Animated, embeddable progress widget plus a no-code builder so staff can update it on Wix or Squarespace.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">JavaScript · HTML5 · CSS Container Queries · postMessage · GitHub Pages</p>
+            <div style="display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:6px;font-size:14px;">
+              <a href="https://jnetle.github.io/mv-thermometer/fundraising_thermometer.html" target="_blank" rel="noopener">Live widget ↗</a>
+              <a href="https://github.com/jnetle/mv-thermometer" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+        <article data-reveal style="display:flex;flex-direction:column;gap:14px;">
+          <a href="https://github.com/jnetle/llds" target="_blank" rel="noopener" style="position:relative;display:block;aspect-ratio:1200/630;background:#e4e3de;overflow:hidden;border:1px solid #c9c8c2;">
+            <img src="img/laurel-leaf.jpg" alt="Laurel Leaf Design Studio website" loading="lazy" style="display:block;width:100%;height:100%;object-fit:cover;object-position:top;">
+            <span style="position:absolute;left:10px;top:10px;background:#f4f3ef;font-size:12px;padding:4px 8px;">In progress</span>
+          </a>
+          <div style="display:flex;flex-direction:column;gap:6px;">
+            <h3 style="margin:0;font-weight:700;font-size:clamp(20px,2vw,26px);">Laurel Leaf Design Studio</h3>
+            <span style="font-size:14px;color:#5e5d58;">Interior design studio · Augusta, GA</span>
+            <p style="margin:4px 0 0;font-size:16px;line-height:1.5;text-wrap:pretty;">Editorial portfolio site with scroll-driven parallax, project pages and a validated inquiry form.</p>
+            <p style="margin:0;font-size:13px;line-height:1.6;color:#3f7a48;">Next.js 16 · React 19 · TypeScript · Tailwind · React Hook Form · Zod · Vercel</p>
+            <div style="display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:6px;font-size:14px;">
+              <a href="https://github.com/jnetle/llds" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" style="padding:clamp(60px,10vh,120px) clamp(20px,5vw,72px);">
+      <h2 data-reveal style="margin:0 0 40px;font-weight:500;font-size:14px;text-transform:uppercase;letter-spacing:.12em;">Skills</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:36px 40px;">
+        <div data-reveal style="display:flex;flex-direction:column;gap:12px;">
+          <h3 style="margin:0;font-size:15px;font-weight:700;">Frontend</h3>
+          <p style="margin:0;font-size:16px;line-height:1.7;">React · TypeScript · JavaScript (ES6+) · Next.js · HTML5 · CSS / SCSS · MUI · Responsive Design</p>
+        </div>
+        <div data-reveal style="display:flex;flex-direction:column;gap:12px;">
+          <h3 style="margin:0;font-size:15px;font-weight:700;">Graphics &amp; Real-time</h3>
+          <p style="margin:0;font-size:16px;line-height:1.7;">Canvas API · three.js · WebGL · Web Workers · WebSockets · Data Visualization</p>
+        </div>
+        <div data-reveal style="display:flex;flex-direction:column;gap:12px;">
+          <h3 style="margin:0;font-size:15px;font-weight:700;">APIs &amp; Cloud</h3>
+          <p style="margin:0;font-size:16px;line-height:1.7;">GraphQL · REST APIs · Node.js · AWS (Lambda, S3, CloudFront, DynamoDB, Cognito) · CDK / SST · Stripe</p>
+        </div>
+        <div data-reveal style="display:flex;flex-direction:column;gap:12px;">
+          <h3 style="margin:0;font-size:15px;font-weight:700;">Quality &amp; Process</h3>
+          <p style="margin:0;font-size:16px;line-height:1.7;">Accessibility (WCAG) · i18n · Web Performance · Jest · Storybook · CI/CD · Git · Agile</p>
+        </div>
+      </div>
+      <p data-reveal style="margin:56px 0 0;font-size:15px;">B.S. Computer Science — John Carroll University</p>
+    </section>
+
+    <section id="contact" style="padding:clamp(80px,16vh,180px) clamp(20px,5vw,72px) 40px;">
+      <h2 data-reveal style="margin:0;font-weight:700;font-size:clamp(40px,7vw,110px);line-height:1;">Let's talk.</h2>
+      <div data-reveal style="display:flex;flex-wrap:wrap;gap:16px 36px;margin-top:36px;font-size:clamp(16px,1.6vw,20px);">
+        <a class="cta" href="https://linkedin.com/in/jeanettele/" target="_blank" rel="noopener">Send me a message ↗</a>
+        <a href="https://linkedin.com/in/jeanettele/">LinkedIn</a>
+        <a href="uploads/Jeanette-Le-Frontend-Resume-Oct-2026.pdf">Download résumé (PDF)</a>
+      </div>
+      <p style="margin:clamp(80px,14vh,140px) 0 0;font-size:12px;color:#5e5d58;">© 2026 Jeanette Le</p>
+    </section>
+  </main>
+</div>
+
+<script>
+(function () {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  var t = document.getElementById("type");
+  if (t) {
+    var full = t.textContent, i = 0;
+    t.setAttribute("aria-label", full);
+    t.textContent = "";
+    var caret = document.createElement("span"); caret.textContent = "_"; caret.style.color = "#3f7a48"; caret.setAttribute("aria-hidden", "true");
+    caret.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 600, iterations: Infinity, direction: "alternate", easing: "steps(1)" });
+    var txt = document.createTextNode(""); t.append(txt, caret);
+    var typer = setInterval(function () { txt.data = full.slice(0, ++i); if (i >= full.length) clearInterval(typer); }, 70);
+  }
+
+  var els = [].slice.call(document.querySelectorAll("[data-reveal]"));
+  if ("IntersectionObserver" in window) {
+    els.forEach(function (el) { el.style.opacity = 0; el.style.transform = "translateY(28px)"; el.style.transition = "opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1)"; });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.style.opacity = 1; e.target.style.transform = "none"; io.unobserve(e.target); }
+      });
+    }, { threshold: 0.15, rootMargin: "0px 0px -8% 0px" });
+    els.forEach(function (el) { io.observe(el); });
+  }
+
+  var bar = document.getElementById("bar"), hero = document.getElementById("hero");
+  function onScroll() {
+    var y = window.scrollY, vh = window.innerHeight, max = document.documentElement.scrollHeight - vh;
+    bar.style.transform = "scaleX(" + (max > 0 ? y / max : 0) + ")";
+    var p = Math.min(1, y / vh);
+    hero.style.transform = "translateY(" + (-p * 80) + "px)"; hero.style.opacity = 1 - p * 0.9;
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+})();
+</script>
+</body>
+</html>
