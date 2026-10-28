@@ -9,7 +9,7 @@ This is the `jnetle/jnetle` GitHub profile repository. The `README.md` at the ro
 ## Structure
 
 - `README.md` — the profile page content, displayed publicly on GitHub
-- `docs/` — static portfolio site served by GitHub Pages at https://jnetle.github.io/jnetle/ (`index.html` + `fonts/`, `img/`, `uploads/` résumé PDF)
+- `docs/` — static portfolio site served by GitHub Pages at https://jnetle.github.io/jnetle/ (`index.html` + `img/`, `uploads/` résumé PDF)
 
 ## Development
 
