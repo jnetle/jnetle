@@ -11,4 +11,4 @@
 
 ### → [jnetle.github.io/jnetle](https://jnetle.github.io/jnetle/)
 
-Experience, side projects, skills and resume.
+Experience, independent projects, skills and resume.
